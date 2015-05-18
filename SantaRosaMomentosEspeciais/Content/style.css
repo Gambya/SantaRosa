@@ -1,0 +1,60 @@
+/*
+Cores:
+Rosa: #FDEBED
+Verde: rgba(144, 188, 165, 1)
+
+*/
+html, body{
+    height:100%; /* aqui definimos que o html e o body terão altura de 100% */
+}
+.space{margin: 10px;}
+span span{color: #F37F90;}
+#apresentacao{
+    background-color:rgba(252, 234, 236, 1);
+    text-align: center;
+    height: auto;
+    min-height: 100%;
+}
+#contato{background-color: #F37F90;}
+
+h1{text-align: center; color: #FFFFFF; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700;}
+.cont{text-align: center; color: #FFFFFF; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; font-size: 1.2em;}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #8C4F42 ;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #FFFFFF ;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#face:link, #face:visited, #face:active {
+    text-decoration: none;
+    color: #8C4F42;
+}
+#face:hover {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+#face1:link, #face1:visited, #face1:active {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#face1:hover {
+    text-decoration: none;
+    color:#FDEBED;
+}
